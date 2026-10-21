@@ -1,0 +1,13 @@
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+requests>=2.31
+joblib>=1.3
+optuna>=3.4          # TPE + pruning for HPO (random search is used if missing)
+xgboost>=2.0
+catboost>=1.2
+scikit-survival>=0.22   # CoxPH, RandomSurvivalForest, GradientBoostingSurvival
+statsmodels>=0.14       # ARIMA / SARIMA
+prophet>=1.1            # optional
+pytest                  # optional, for tests/

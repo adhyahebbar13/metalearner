@@ -1,0 +1,534 @@
+{
+  "Blood Transfusion Service data.csv": {
+    "dataset_name": "Blood Transfusion Service data.csv",
+    "stats": {
+      "n_samples": 748,
+      "n_features": 5,
+      "target_col": "Class(Target)",
+      "target_stats": {
+        "mean": 1.2379679144385027,
+        "std": 0.4261243278014516,
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "Blood Transfusion Service data.csv",
+        "model": "ARIMA",
+        "rmse": 0.3504969898362657,
+        "mae": 0.32830349150019167,
+        "mape": 29.513698959456924,
+        "smape": 26.923022099472515,
+        "r2": -0.45172434211994483,
+        "training_time": 0.06,
+        "n_samples": 748,
+        "n_features": 5
+      },
+      {
+        "dataset": "Blood Transfusion Service data.csv",
+        "model": "SARIMA",
+        "rmse": 0.36031409318495844,
+        "mae": 0.3322681106191062,
+        "mape": 30.126933241887034,
+        "smape": 27.030071311160174,
+        "r2": -0.5341862023756434,
+        "training_time": 0.71,
+        "n_samples": 748,
+        "n_features": 5
+      },
+      {
+        "dataset": "Blood Transfusion Service data.csv",
+        "model": "Prophet",
+        "rmse": 0.42248077781558974,
+        "mae": 0.4161186449672981,
+        "mape": 38.74503418305837,
+        "smape": 33.305925123005245,
+        "r2": -1.1092569178216798,
+        "training_time": 0.41,
+        "n_samples": 748,
+        "n_features": 5
+      },
+      {
+        "dataset": "Blood Transfusion Service data.csv",
+        "model": "XGBoost",
+        "rmse": 0.6116007967630614,
+        "mae": 0.5632180571556091,
+        "mape": 54.098153574354704,
+        "smape": 41.7816120280806,
+        "r2": -3.3938660621643066,
+        "training_time": 0.15,
+        "n_samples": 748,
+        "n_features": 5
+      }
+    ]
+  },
+  "Clinical Data_Discovery_Cohort.csv": {
+    "dataset_name": "Clinical Data_Discovery_Cohort.csv",
+    "stats": {
+      "n_samples": 30,
+      "n_features": 2,
+      "target_col": "Time",
+      "target_stats": {
+        "mean": 1637.9666666666667,
+        "std": 1632.8549671290957,
+        "min": 35.0,
+        "max": 5900.0
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "Clinical Data_Discovery_Cohort.csv",
+        "model": "ARIMA",
+        "rmse": 1115.112226240354,
+        "mae": 933.1867226479368,
+        "mape": 937.1461243504841,
+        "smape": 86.42824639950723,
+        "r2": -1.7370359630898085,
+        "training_time": 0.04,
+        "n_samples": 30,
+        "n_features": 2
+      },
+      {
+        "dataset": "Clinical Data_Discovery_Cohort.csv",
+        "model": "SARIMA",
+        "rmse": 3509.441162856076,
+        "mae": 3022.5832315662788,
+        "mape": 2261.820246818132,
+        "smape": 125.19374330580213,
+        "r2": -26.10936095914394,
+        "training_time": 0.28,
+        "n_samples": 30,
+        "n_features": 2
+      },
+      {
+        "dataset": "Clinical Data_Discovery_Cohort.csv",
+        "model": "Prophet",
+        "rmse": 1205.140701588526,
+        "mae": 1004.704868085673,
+        "mape": 1011.6039124484633,
+        "smape": 88.26159606881431,
+        "r2": -2.196824959414454,
+        "training_time": 0.12,
+        "n_samples": 30,
+        "n_features": 2
+      },
+      {
+        "dataset": "Clinical Data_Discovery_Cohort.csv",
+        "model": "XGBoost",
+        "rmse": 779.816645116017,
+        "mae": 622.080078125,
+        "mape": 805.19869501585,
+        "smape": 76.0107283940986,
+        "r2": -0.14929449558258057,
+        "training_time": 0.06,
+        "n_samples": 30,
+        "n_features": 2
+      }
+    ]
+  },
+  "gait1.csv": {
+    "dataset_name": "gait1.csv",
+    "stats": {
+      "n_samples": 151987,
+      "n_features": 10,
+      "target_col": "annotation",
+      "target_stats": {
+        "mean": 0.6444564337739412,
+        "std": 0.5448520614099116,
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "gait1.csv",
+        "model": "ARIMA",
+        "rmse": 0.5771033069191599,
+        "mae": 0.33304822685703006,
+        "mape": 4.767747980902236,
+        "smape": 57.23622168125095,
+        "r2": -0.1251156869966097,
+        "training_time": 3.16,
+        "n_samples": 151987,
+        "n_features": 10
+      },
+      {
+        "dataset": "gait1.csv",
+        "model": "SARIMA",
+        "rmse": 0.46962237918287053,
+        "mae": 0.34869263328278977,
+        "mape": 17.392091906880783,
+        "smape": 67.52187148053358,
+        "r2": 0.25494621917338345,
+        "training_time": 132.01,
+        "n_samples": 151987,
+        "n_features": 10
+      },
+      {
+        "dataset": "gait1.csv",
+        "model": "XGBoost",
+        "rmse": 0.04162077158047361,
+        "mae": 0.007485364098101854,
+        "mape": 0.49884254487696,
+        "smape": 52.91740954926727,
+        "r2": 0.9941480755805969,
+        "training_time": 0.42,
+        "n_samples": 151987,
+        "n_features": 10
+      }
+    ]
+  },
+  "gait3.csv": {
+    "dataset_name": "gait3.csv",
+    "stats": {
+      "n_samples": 109886,
+      "n_features": 10,
+      "target_col": "annotation",
+      "target_stats": {
+        "mean": 0.775321697031469,
+        "std": 0.7000277386973429,
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "gait3.csv",
+        "model": "ARIMA",
+        "rmse": 0.7750136132005042,
+        "mae": 0.6006461006461007,
+        "mape": 19.719864762299043,
+        "smape": 85.4521187854521,
+        "r2": -0.010903612636553595,
+        "training_time": 1.28,
+        "n_samples": 109886,
+        "n_features": 10
+      },
+      {
+        "dataset": "gait3.csv",
+        "model": "SARIMA",
+        "rmse": 0.7691682063725238,
+        "mae": 0.6038706008619682,
+        "mape": 21.490986250724855,
+        "smape": 86.90782184595591,
+        "r2": 0.004288013504583521,
+        "training_time": 68.32,
+        "n_samples": 109886,
+        "n_features": 10
+      },
+      {
+        "dataset": "gait3.csv",
+        "model": "XGBoost",
+        "rmse": 0.40181840468432467,
+        "mae": 0.17827633023262024,
+        "mape": 0.8498149854831527,
+        "smape": 68.67438144144383,
+        "r2": 0.7282739877700806,
+        "training_time": 0.17,
+        "n_samples": 109886,
+        "n_features": 10
+      }
+    ]
+  },
+  "heart_rate.csv": {
+    "dataset_name": "heart_rate.csv",
+    "stats": {
+      "n_samples": 1800,
+      "n_features": 3,
+      "target_col": "T4",
+      "target_stats": {
+        "mean": 58.51513299663299,
+        "std": 3.484603415419422,
+        "min": 52.9153,
+        "max": 77.4244
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "heart_rate.csv",
+        "model": "XGBoost",
+        "rmse": 1.6573655709830961,
+        "mae": 0.9040701752737671,
+        "mape": 1.480533250948872,
+        "smape": 1.4910843133458005,
+        "r2": 0.7217697295671932,
+        "training_time": 0.07,
+        "n_samples": 1800,
+        "n_features": 3
+      }
+    ]
+  },
+  "Opthalmology.csv": {
+    "dataset_name": "Opthalmology.csv",
+    "stats": {
+      "n_samples": 255,
+      "n_features": 3,
+      "target_col": "LE_2",
+      "target_stats": {
+        "mean": -2.7772549019607844,
+        "std": 1.8030246661042126,
+        "min": -5.1,
+        "max": 1.2
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "Opthalmology.csv",
+        "model": "ARIMA",
+        "rmse": 0.5261303356838929,
+        "mae": 0.4457492969216206,
+        "mape": 12.723618301981285,
+        "smape": 12.121797115294989,
+        "r2": 0.05127032354733718,
+        "training_time": 0.08,
+        "n_samples": 255,
+        "n_features": 3
+      },
+      {
+        "dataset": "Opthalmology.csv",
+        "model": "SARIMA",
+        "rmse": 0.901655301756324,
+        "mae": 0.7543194882985603,
+        "mape": 22.617903516566003,
+        "smape": 19.511169091707643,
+        "r2": -1.786357779107831,
+        "training_time": 1.49,
+        "n_samples": 255,
+        "n_features": 3
+      },
+      {
+        "dataset": "Opthalmology.csv",
+        "model": "Prophet",
+        "rmse": 2.119060275966335,
+        "mae": 1.978829015062887,
+        "mape": 57.928048150601896,
+        "smape": 42.95845795686294,
+        "r2": -14.390134661638328,
+        "training_time": 0.22,
+        "n_samples": 255,
+        "n_features": 3
+      },
+      {
+        "dataset": "Opthalmology.csv",
+        "model": "XGBoost",
+        "rmse": 0.30824843278866915,
+        "mae": 0.24025581836700438,
+        "mape": 6.820143667651742,
+        "smape": 7.065039786492244,
+        "r2": 0.6784792561122932,
+        "training_time": 0.05,
+        "n_samples": 255,
+        "n_features": 3
+      }
+    ]
+  },
+  "Opthalmology2.csv": {
+    "dataset_name": "Opthalmology2.csv",
+    "stats": {
+      "n_samples": 255,
+      "n_features": 3,
+      "target_col": "LE_2",
+      "target_stats": {
+        "mean": -2.7772549019607844,
+        "std": 1.8030246661042126,
+        "min": -5.1,
+        "max": 1.2
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "Opthalmology2.csv",
+        "model": "ARIMA",
+        "rmse": 0.5261303356838929,
+        "mae": 0.4457492969216206,
+        "mape": 12.723618301981285,
+        "smape": 12.121797115294989,
+        "r2": 0.05127032354733718,
+        "training_time": 0.06,
+        "n_samples": 255,
+        "n_features": 3
+      },
+      {
+        "dataset": "Opthalmology2.csv",
+        "model": "SARIMA",
+        "rmse": 0.901655301756324,
+        "mae": 0.7543194882985603,
+        "mape": 22.617903516566003,
+        "smape": 19.511169091707643,
+        "r2": -1.786357779107831,
+        "training_time": 1.47,
+        "n_samples": 255,
+        "n_features": 3
+      },
+      {
+        "dataset": "Opthalmology2.csv",
+        "model": "Prophet",
+        "rmse": 2.119060275966335,
+        "mae": 1.978829015062887,
+        "mape": 57.928048150601896,
+        "smape": 42.95845795686294,
+        "r2": -14.390134661638328,
+        "training_time": 0.2,
+        "n_samples": 255,
+        "n_features": 3
+      },
+      {
+        "dataset": "Opthalmology2.csv",
+        "model": "XGBoost",
+        "rmse": 0.30824843278866915,
+        "mae": 0.24025581836700438,
+        "mape": 6.820143667651742,
+        "smape": 7.065039786492244,
+        "r2": 0.6784792561122932,
+        "training_time": 0.04,
+        "n_samples": 255,
+        "n_features": 3
+      }
+    ]
+  },
+  "scores.csv": {
+    "dataset_name": "scores.csv",
+    "stats": {
+      "n_samples": 55,
+      "n_features": 8,
+      "target_col": "madrs2",
+      "target_stats": {
+        "mean": 20.0,
+        "std": 4.729020655869074,
+        "min": 11.0,
+        "max": 28.0
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "scores.csv",
+        "model": "XGBoost",
+        "rmse": 5.187888630472581,
+        "mae": 4.616097768147786,
+        "mape": 18.404030750503697,
+        "smape": 19.994314889893175,
+        "r2": -2.105483281790769,
+        "training_time": 0.13,
+        "n_samples": 55,
+        "n_features": 8
+      }
+    ]
+  },
+  "Vital_signs.csv": {
+    "dataset_name": "Vital_signs.csv",
+    "stats": {
+      "n_samples": 6388,
+      "n_features": 53,
+      "target_col": "intraop_ca",
+      "target_stats": {
+        "mean": 120.78193487789605,
+        "std": 535.113498938102,
+        "min": 0.0,
+        "max": 15900.0
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "Vital_signs.csv",
+        "model": "ARIMA",
+        "rmse": 360.3211149056304,
+        "mae": 187.6432899703624,
+        "mape": 70.11867996358423,
+        "smape": 188.57919190196097,
+        "r2": -0.009237109995815063,
+        "training_time": 0.75,
+        "n_samples": 6388,
+        "n_features": 53
+      },
+      {
+        "dataset": "Vital_signs.csv",
+        "model": "SARIMA",
+        "rmse": 359.59781675660685,
+        "mae": 177.03794918523505,
+        "mape": 72.41119421610625,
+        "smape": 189.41492935259993,
+        "r2": -0.005189350185168307,
+        "training_time": 18.05,
+        "n_samples": 6388,
+        "n_features": 53
+      },
+      {
+        "dataset": "Vital_signs.csv",
+        "model": "Prophet",
+        "rmse": 359.54330627475025,
+        "mae": 180.6699332498492,
+        "mape": 72.1350642304383,
+        "smape": 189.18430788897837,
+        "r2": -0.004884625293676947,
+        "training_time": 0.62,
+        "n_samples": 6388,
+        "n_features": 53
+      }
+    ]
+  },
+  "wearable_sports_health_dataset.csv": {
+    "dataset_name": "wearable_sports_health_dataset.csv",
+    "stats": {
+      "n_samples": 500,
+      "n_features": 7,
+      "target_col": "Secure_Transmission_Status",
+      "target_stats": {
+        "mean": 0.188,
+        "std": 0.39110346949074154,
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    "all_results": [
+      {
+        "dataset": "wearable_sports_health_dataset.csv",
+        "model": "ARIMA",
+        "rmse": 0.43067475140127354,
+        "mae": 0.3304237685096858,
+        "mape": 82.18065151081638,
+        "smape": 185.49245345046856,
+        "r2": -0.016890030123622557,
+        "training_time": 0.23,
+        "n_samples": 500,
+        "n_features": 7
+      },
+      {
+        "dataset": "wearable_sports_health_dataset.csv",
+        "model": "SARIMA",
+        "rmse": 0.4351658033766719,
+        "mae": 0.3165066734058794,
+        "mape": 83.94749751348489,
+        "smape": 186.8483940998185,
+        "r2": -0.0382087523490362,
+        "training_time": 1.77,
+        "n_samples": 500,
+        "n_features": 7
+      },
+      {
+        "dataset": "wearable_sports_health_dataset.csv",
+        "model": "Prophet",
+        "rmse": 0.433598751452014,
+        "mae": 0.32589029819398796,
+        "mape": 83.4852399776195,
+        "smape": 186.3930220299335,
+        "r2": -0.030744941122507585,
+        "training_time": 0.21,
+        "n_samples": 500,
+        "n_features": 7
+      },
+      {
+        "dataset": "wearable_sports_health_dataset.csv",
+        "model": "XGBoost",
+        "rmse": 8.398510719131335e-05,
+        "mae": 6.100715836510062e-05,
+        "mape": 0.016069412231445312,
+        "smape": 153.5390871331283,
+        "r2": 0.9999999403953552,
+        "training_time": 0.02,
+        "n_samples": 500,
+        "n_features": 7
+      }
+    ]
+  }
+}

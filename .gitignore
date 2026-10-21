@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+catboost_info/
+
+# demo / user runs: fitted models (100+ MB) and reports
+artifacts/runs/
+# per-dataset benchmark cache; the merged *_detailed.csv files are kept
+artifacts/benchmarks/_parts/
+
+# original upstream anomaly files, rebuilt into Datasets/Anomaly by scripts/make_anomaly_datasets.py
+Datasets/Anamoly/
+
+# the patch this code started from (its contents are the repo itself)
+*.patch

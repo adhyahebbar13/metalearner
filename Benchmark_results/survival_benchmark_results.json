@@ -1,0 +1,552 @@
+{
+  "cancer.csv": {
+    "dataset_name": "cancer.csv",
+    "stats": {
+      "n_samples": 228,
+      "n_features": 8,
+      "n_events": "63",
+      "n_censored": "0",
+      "event_rate": 0.27631578947368424,
+      "time_col": "time",
+      "event_col": "status"
+    },
+    "all_results": [
+      {
+        "dataset": "cancer.csv",
+        "model": "CoxPH",
+        "c_index": 0.5328498293515358,
+        "training_time": 0.04,
+        "n_samples": 228,
+        "n_features": 8,
+        "event_rate": 0.2763
+      },
+      {
+        "dataset": "cancer.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.5558873720136519,
+        "training_time": 0.11,
+        "n_samples": 228,
+        "n_features": 8,
+        "event_rate": 0.2763
+      },
+      {
+        "dataset": "cancer.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.5332764505119454,
+        "training_time": 0.07,
+        "n_samples": 228,
+        "n_features": 8,
+        "event_rate": 0.2763
+      }
+    ]
+  },
+  "Clinical Data_Discovery_Cohort.csv": {
+    "dataset_name": "Clinical Data_Discovery_Cohort.csv",
+    "stats": {
+      "n_samples": 30,
+      "n_features": 8,
+      "n_events": "9",
+      "n_censored": "1",
+      "event_rate": 0.3,
+      "time_col": "Time",
+      "event_col": "Date of Death"
+    },
+    "all_results": []
+  },
+  "colon.csv": {
+    "dataset_name": "colon.csv",
+    "stats": {
+      "n_samples": 1858,
+      "n_features": 14,
+      "n_events": "920",
+      "n_censored": "938",
+      "event_rate": 0.4951560818083961,
+      "time_col": "time",
+      "event_col": "status"
+    },
+    "all_results": [
+      {
+        "dataset": "colon.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.7149386680978886,
+        "training_time": 2.31,
+        "n_samples": 1858,
+        "n_features": 14,
+        "event_rate": 0.4952
+      },
+      {
+        "dataset": "colon.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.6766202962283261,
+        "training_time": 2.09,
+        "n_samples": 1858,
+        "n_features": 14,
+        "event_rate": 0.4952
+      }
+    ]
+  },
+  "haberman.csv": {
+    "dataset_name": "haberman.csv",
+    "stats": {
+      "n_samples": 305,
+      "n_features": 2,
+      "n_events": "224",
+      "n_censored": "0",
+      "event_rate": 0.7344262295081967,
+      "time_col": "1",
+      "event_col": "1.1"
+    },
+    "all_results": [
+      {
+        "dataset": "haberman.csv",
+        "model": "CoxPH",
+        "c_index": 0.4781395348837209,
+        "training_time": 0.03,
+        "n_samples": 305,
+        "n_features": 2,
+        "event_rate": 0.7344
+      },
+      {
+        "dataset": "haberman.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.49333333333333335,
+        "training_time": 0.08,
+        "n_samples": 305,
+        "n_features": 2,
+        "event_rate": 0.7344
+      },
+      {
+        "dataset": "haberman.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.4598449612403101,
+        "training_time": 0.07,
+        "n_samples": 305,
+        "n_features": 2,
+        "event_rate": 0.7344
+      }
+    ]
+  },
+  "heart_failure_clinical_records_dataset.csv": {
+    "dataset_name": "heart_failure_clinical_records_dataset.csv",
+    "stats": {
+      "n_samples": 299,
+      "n_features": 11,
+      "n_events": "96",
+      "n_censored": "203",
+      "event_rate": 0.3210702341137124,
+      "time_col": "time",
+      "event_col": "DEATH_EVENT"
+    },
+    "all_results": [
+      {
+        "dataset": "heart_failure_clinical_records_dataset.csv",
+        "model": "CoxPH",
+        "c_index": 0.7108540925266904,
+        "training_time": 0.03,
+        "n_samples": 299,
+        "n_features": 11,
+        "event_rate": 0.3211
+      },
+      {
+        "dataset": "heart_failure_clinical_records_dataset.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.7370996441281139,
+        "training_time": 0.12,
+        "n_samples": 299,
+        "n_features": 11,
+        "event_rate": 0.3211
+      },
+      {
+        "dataset": "heart_failure_clinical_records_dataset.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.7368772241992882,
+        "training_time": 0.09,
+        "n_samples": 299,
+        "n_features": 11,
+        "event_rate": 0.3211
+      }
+    ]
+  },
+  "kidney.csv": {
+    "dataset_name": "kidney.csv",
+    "stats": {
+      "n_samples": 76,
+      "n_features": 5,
+      "n_events": "58",
+      "n_censored": "18",
+      "event_rate": 0.7631578947368421,
+      "time_col": "time",
+      "event_col": "status"
+    },
+    "all_results": [
+      {
+        "dataset": "kidney.csv",
+        "model": "CoxPH",
+        "c_index": 0.824607329842932,
+        "training_time": 0.03,
+        "n_samples": 76,
+        "n_features": 5,
+        "event_rate": 0.7632
+      },
+      {
+        "dataset": "kidney.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.7094240837696335,
+        "training_time": 0.07,
+        "n_samples": 76,
+        "n_features": 5,
+        "event_rate": 0.7632
+      },
+      {
+        "dataset": "kidney.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.7172774869109948,
+        "training_time": 0.04,
+        "n_samples": 76,
+        "n_features": 5,
+        "event_rate": 0.7632
+      }
+    ]
+  },
+  "leukemia.csv": {
+    "dataset_name": "leukemia.csv",
+    "stats": {
+      "n_samples": 23,
+      "n_features": 1,
+      "n_events": "18",
+      "n_censored": "5",
+      "event_rate": 0.782608695652174,
+      "time_col": "time",
+      "event_col": "status"
+    },
+    "all_results": [
+      {
+        "dataset": "leukemia.csv",
+        "model": "CoxPH",
+        "c_index": 0.65,
+        "training_time": 0.03,
+        "n_samples": 23,
+        "n_features": 1,
+        "event_rate": 0.7826
+      },
+      {
+        "dataset": "leukemia.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.65,
+        "training_time": 0.07,
+        "n_samples": 23,
+        "n_features": 1,
+        "event_rate": 0.7826
+      },
+      {
+        "dataset": "leukemia.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.65,
+        "training_time": 0.03,
+        "n_samples": 23,
+        "n_features": 1,
+        "event_rate": 0.7826
+      }
+    ]
+  },
+  "lung.csv": {
+    "dataset_name": "lung.csv",
+    "stats": {
+      "n_samples": 228,
+      "n_features": 8,
+      "n_events": "63",
+      "n_censored": "0",
+      "event_rate": 0.27631578947368424,
+      "time_col": "time",
+      "event_col": "status"
+    },
+    "all_results": [
+      {
+        "dataset": "lung.csv",
+        "model": "CoxPH",
+        "c_index": 0.5328498293515358,
+        "training_time": 0.04,
+        "n_samples": 228,
+        "n_features": 8,
+        "event_rate": 0.2763
+      },
+      {
+        "dataset": "lung.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.5558873720136519,
+        "training_time": 0.11,
+        "n_samples": 228,
+        "n_features": 8,
+        "event_rate": 0.2763
+      },
+      {
+        "dataset": "lung.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.5332764505119454,
+        "training_time": 0.07,
+        "n_samples": 228,
+        "n_features": 8,
+        "event_rate": 0.2763
+      }
+    ]
+  },
+  "METABRIC_RNA_Mutation.csv": {
+    "dataset_name": "METABRIC_RNA_Mutation.csv",
+    "stats": {
+      "n_samples": 1874,
+      "n_features": 691,
+      "n_events": "1445",
+      "n_censored": "429",
+      "event_rate": 0.7710779082177162,
+      "time_col": "overall_survival_months",
+      "event_col": "er_status_measured_by_ihc"
+    },
+    "all_results": []
+  },
+  "mgus.csv": {
+    "dataset_name": "mgus.csv",
+    "stats": {
+      "n_samples": 64,
+      "n_features": 10,
+      "n_events": "62",
+      "n_censored": "2",
+      "event_rate": 0.96875,
+      "time_col": "pctime",
+      "event_col": "death"
+    },
+    "all_results": [
+      {
+        "dataset": "mgus.csv",
+        "model": "CoxPH",
+        "c_index": 0.7734806629834254,
+        "training_time": 0.03,
+        "n_samples": 64,
+        "n_features": 10,
+        "event_rate": 0.9688
+      },
+      {
+        "dataset": "mgus.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.7790055248618785,
+        "training_time": 0.07,
+        "n_samples": 64,
+        "n_features": 10,
+        "event_rate": 0.9688
+      },
+      {
+        "dataset": "mgus.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.7762430939226519,
+        "training_time": 0.04,
+        "n_samples": 64,
+        "n_features": 10,
+        "event_rate": 0.9688
+      }
+    ]
+  },
+  "myeloid.csv": {
+    "dataset_name": "myeloid.csv",
+    "stats": {
+      "n_samples": 646,
+      "n_features": 6,
+      "n_events": "320",
+      "n_censored": "326",
+      "event_rate": 0.4953560371517028,
+      "time_col": "futime",
+      "event_col": "death"
+    },
+    "all_results": [
+      {
+        "dataset": "myeloid.csv",
+        "model": "CoxPH",
+        "c_index": 0.5286108094561858,
+        "training_time": 0.05,
+        "n_samples": 646,
+        "n_features": 6,
+        "event_rate": 0.4954
+      },
+      {
+        "dataset": "myeloid.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.6990226380419347,
+        "training_time": 0.48,
+        "n_samples": 646,
+        "n_features": 6,
+        "event_rate": 0.4954
+      },
+      {
+        "dataset": "myeloid.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.6902932085874196,
+        "training_time": 0.25,
+        "n_samples": 646,
+        "n_features": 6,
+        "event_rate": 0.4954
+      }
+    ]
+  },
+  "myeloma.csv": {
+    "dataset_name": "myeloma.csv",
+    "stats": {
+      "n_samples": 3882,
+      "n_features": 3,
+      "n_events": "2769",
+      "n_censored": "1113",
+      "event_rate": 0.7132921174652241,
+      "time_col": "futime",
+      "event_col": "death"
+    },
+    "all_results": [
+      {
+        "dataset": "myeloma.csv",
+        "model": "CoxPH",
+        "c_index": 0.6198959357163796,
+        "training_time": 0.25,
+        "n_samples": 3882,
+        "n_features": 3,
+        "event_rate": 0.7133
+      },
+      {
+        "dataset": "myeloma.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.608859043332816,
+        "training_time": 10.6,
+        "n_samples": 3882,
+        "n_features": 3,
+        "event_rate": 0.7133
+      },
+      {
+        "dataset": "myeloma.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.6165226837721794,
+        "training_time": 10.86,
+        "n_samples": 3882,
+        "n_features": 3,
+        "event_rate": 0.7133
+      }
+    ]
+  },
+  "ovarian.csv": {
+    "dataset_name": "ovarian.csv",
+    "stats": {
+      "n_samples": 26,
+      "n_features": 4,
+      "n_events": "14",
+      "n_censored": "0",
+      "event_rate": 0.5384615384615384,
+      "time_col": "rx",
+      "event_col": "ecog.ps"
+    },
+    "all_results": [
+      {
+        "dataset": "ovarian.csv",
+        "model": "CoxPH",
+        "c_index": 0.25,
+        "training_time": 0.03,
+        "n_samples": 26,
+        "n_features": 4,
+        "event_rate": 0.5385
+      },
+      {
+        "dataset": "ovarian.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.375,
+        "training_time": 0.06,
+        "n_samples": 26,
+        "n_features": 4,
+        "event_rate": 0.5385
+      },
+      {
+        "dataset": "ovarian.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.59375,
+        "training_time": 0.03,
+        "n_samples": 26,
+        "n_features": 4,
+        "event_rate": 0.5385
+      }
+    ]
+  },
+  "Standard Survival Data Format.csv": {
+    "dataset_name": "Standard Survival Data Format.csv",
+    "stats": {
+      "n_samples": 42,
+      "n_features": 2,
+      "n_events": "30",
+      "n_censored": "12",
+      "event_rate": 0.7142857142857143,
+      "time_col": "Remission Time (t)",
+      "event_col": "Censoring (d)"
+    },
+    "all_results": [
+      {
+        "dataset": "Standard Survival Data Format.csv",
+        "model": "CoxPH",
+        "c_index": 0.9850746268656716,
+        "training_time": 0.03,
+        "n_samples": 42,
+        "n_features": 2,
+        "event_rate": 0.7143
+      },
+      {
+        "dataset": "Standard Survival Data Format.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 1.0,
+        "training_time": 0.08,
+        "n_samples": 42,
+        "n_features": 2,
+        "event_rate": 0.7143
+      },
+      {
+        "dataset": "Standard Survival Data Format.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.9701492537313433,
+        "training_time": 0.02,
+        "n_samples": 42,
+        "n_features": 2,
+        "event_rate": 0.7143
+      }
+    ]
+  },
+  "veteran.csv": {
+    "dataset_name": "veteran.csv",
+    "stats": {
+      "n_samples": 137,
+      "n_features": 6,
+      "n_events": "128",
+      "n_censored": "9",
+      "event_rate": 0.9343065693430657,
+      "time_col": "time",
+      "event_col": "status"
+    },
+    "all_results": [
+      {
+        "dataset": "veteran.csv",
+        "model": "CoxPH",
+        "c_index": 0.6618876941457587,
+        "training_time": 0.03,
+        "n_samples": 137,
+        "n_features": 6,
+        "event_rate": 0.9343
+      },
+      {
+        "dataset": "veteran.csv",
+        "model": "RandomSurvivalForest",
+        "c_index": 0.6618876941457587,
+        "training_time": 0.08,
+        "n_samples": 137,
+        "n_features": 6,
+        "event_rate": 0.9343
+      },
+      {
+        "dataset": "veteran.csv",
+        "model": "GradientBoostingSurvival",
+        "c_index": 0.7072879330943848,
+        "training_time": 0.04,
+        "n_samples": 137,
+        "n_features": 6,
+        "event_rate": 0.9343
+      }
+    ]
+  }
+}

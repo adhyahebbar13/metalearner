@@ -1,0 +1,14 @@
+dataset,best_model,c_index,training_time
+Standard Survival Data Format.csv,RandomSurvivalForest,1.0,0.08
+kidney.csv,CoxPH,0.824607329842932,0.03
+mgus.csv,RandomSurvivalForest,0.7790055248618785,0.07
+heart_failure_clinical_records_dataset.csv,RandomSurvivalForest,0.7370996441281139,0.12
+colon.csv,RandomSurvivalForest,0.7149386680978886,2.31
+veteran.csv,GradientBoostingSurvival,0.7072879330943848,0.04
+myeloid.csv,RandomSurvivalForest,0.6990226380419347,0.48
+leukemia.csv,CoxPH,0.65,0.03
+myeloma.csv,CoxPH,0.6198959357163796,0.25
+ovarian.csv,GradientBoostingSurvival,0.59375,0.03
+cancer.csv,RandomSurvivalForest,0.5558873720136519,0.11
+lung.csv,RandomSurvivalForest,0.5558873720136519,0.11
+haberman.csv,RandomSurvivalForest,0.49333333333333335,0.08

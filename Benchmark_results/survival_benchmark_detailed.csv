@@ -1,0 +1,39 @@
+dataset,model,c_index,training_time,n_samples,n_features,event_rate
+Standard Survival Data Format.csv,RandomSurvivalForest,1.0,0.08,42,2,0.7143
+Standard Survival Data Format.csv,CoxPH,0.9850746268656716,0.03,42,2,0.7143
+Standard Survival Data Format.csv,GradientBoostingSurvival,0.9701492537313433,0.02,42,2,0.7143
+cancer.csv,RandomSurvivalForest,0.5558873720136519,0.11,228,8,0.2763
+cancer.csv,GradientBoostingSurvival,0.5332764505119454,0.07,228,8,0.2763
+cancer.csv,CoxPH,0.5328498293515358,0.04,228,8,0.2763
+colon.csv,RandomSurvivalForest,0.7149386680978886,2.31,1858,14,0.4952
+colon.csv,GradientBoostingSurvival,0.6766202962283261,2.09,1858,14,0.4952
+haberman.csv,RandomSurvivalForest,0.49333333333333335,0.08,305,2,0.7344
+haberman.csv,CoxPH,0.4781395348837209,0.03,305,2,0.7344
+haberman.csv,GradientBoostingSurvival,0.4598449612403101,0.07,305,2,0.7344
+heart_failure_clinical_records_dataset.csv,RandomSurvivalForest,0.7370996441281139,0.12,299,11,0.3211
+heart_failure_clinical_records_dataset.csv,GradientBoostingSurvival,0.7368772241992882,0.09,299,11,0.3211
+heart_failure_clinical_records_dataset.csv,CoxPH,0.7108540925266904,0.03,299,11,0.3211
+kidney.csv,CoxPH,0.824607329842932,0.03,76,5,0.7632
+kidney.csv,GradientBoostingSurvival,0.7172774869109948,0.04,76,5,0.7632
+kidney.csv,RandomSurvivalForest,0.7094240837696335,0.07,76,5,0.7632
+leukemia.csv,CoxPH,0.65,0.03,23,1,0.7826
+leukemia.csv,RandomSurvivalForest,0.65,0.07,23,1,0.7826
+leukemia.csv,GradientBoostingSurvival,0.65,0.03,23,1,0.7826
+lung.csv,RandomSurvivalForest,0.5558873720136519,0.11,228,8,0.2763
+lung.csv,GradientBoostingSurvival,0.5332764505119454,0.07,228,8,0.2763
+lung.csv,CoxPH,0.5328498293515358,0.04,228,8,0.2763
+mgus.csv,RandomSurvivalForest,0.7790055248618785,0.07,64,10,0.9688
+mgus.csv,GradientBoostingSurvival,0.7762430939226519,0.04,64,10,0.9688
+mgus.csv,CoxPH,0.7734806629834254,0.03,64,10,0.9688
+myeloid.csv,RandomSurvivalForest,0.6990226380419347,0.48,646,6,0.4954
+myeloid.csv,GradientBoostingSurvival,0.6902932085874196,0.25,646,6,0.4954
+myeloid.csv,CoxPH,0.5286108094561858,0.05,646,6,0.4954
+myeloma.csv,CoxPH,0.6198959357163796,0.25,3882,3,0.7133
+myeloma.csv,GradientBoostingSurvival,0.6165226837721794,10.86,3882,3,0.7133
+myeloma.csv,RandomSurvivalForest,0.608859043332816,10.6,3882,3,0.7133
+ovarian.csv,GradientBoostingSurvival,0.59375,0.03,26,4,0.5385
+ovarian.csv,RandomSurvivalForest,0.375,0.06,26,4,0.5385
+ovarian.csv,CoxPH,0.25,0.03,26,4,0.5385
+veteran.csv,GradientBoostingSurvival,0.7072879330943848,0.04,137,6,0.9343
+veteran.csv,CoxPH,0.6618876941457587,0.03,137,6,0.9343
+veteran.csv,RandomSurvivalForest,0.6618876941457587,0.08,137,6,0.9343

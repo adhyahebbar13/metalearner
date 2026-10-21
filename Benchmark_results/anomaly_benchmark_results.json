@@ -1,0 +1,46 @@
+{
+  "indian_liver_patient.csv": {
+    "dataset_name": "indian_liver_patient.csv",
+    "stats": {
+      "n_samples": 583,
+      "n_features": 10,
+      "n_anomalies": "416",
+      "n_normal": "0",
+      "anomaly_rate": 0.7135506003430532
+    },
+    "all_results": []
+  },
+  "kidney_disease.csv": {
+    "dataset_name": "kidney_disease.csv",
+    "stats": {
+      "n_samples": 400,
+      "n_features": 25,
+      "n_anomalies": "2",
+      "n_normal": "248",
+      "anomaly_rate": 0.005
+    },
+    "all_results": []
+  },
+  "mitbih_test.csv": {
+    "dataset_name": "mitbih_test.csv",
+    "stats": {
+      "n_samples": 21891,
+      "n_features": 187,
+      "n_anomalies": "556",
+      "n_normal": "18117",
+      "anomaly_rate": 0.025398565620574666
+    },
+    "all_results": []
+  },
+  "ObesityDataSet_raw_and_data_sinthetic.csv": {
+    "dataset_name": "ObesityDataSet_raw_and_data_sinthetic.csv",
+    "stats": {
+      "n_samples": 2111,
+      "n_features": 16,
+      "n_anomalies": "287",
+      "n_normal": "272",
+      "anomaly_rate": 0.1359545239223117
+    },
+    "all_results": []
+  }
+}
